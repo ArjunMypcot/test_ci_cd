@@ -124,7 +124,7 @@
                 <div class="nav-container">
                     <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
                         <li class="nav-item {{ Request::path() ==  'dashboard' ? 'active' : ''  }}">
-                            <a href="dashboard"><i class="ft-home"></i><span class="menu-title" data-i18n="Documentation">Dashboard</span></a>
+                            <a href="dashboard"><i class="ft-home"></i><span class="menu-title" data-i18n="Documentation">Dashboard Admin</span></a>
                         </li>
 
                                     @if(in_array('staff', $permission_array) || session('data')['role_id'] == 1)
